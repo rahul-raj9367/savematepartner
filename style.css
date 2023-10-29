@@ -118,8 +118,8 @@ body{
 }
 .custom-box {
     position: absolute;
-    top: 0px;
-    right: 24vw;
+    top: 0px !important;
+    right: 24% !important;
     z-index: -1;
     margin-top: 40px;
     margin-left: 250px;
@@ -131,9 +131,9 @@ body{
 }
 .custom-box-two{
     position: absolute;
-    top: 0px;
+    top: 0px !important;
     z-index: -1;
-    right: 0vw;
+    right: 0% !important;
     border: 2px solid rgba(255, 205, 255, 0.3);
     margin-top: 40px;
     margin-left: 250px; 
@@ -144,9 +144,10 @@ body{
 }
 .custom-box-four{
     position: absolute;
-    top: 105px;
-    right: 0vw;
+    top: 105px !important;
+    right: 0vw !important;
     z-index: -1;
+    /* margin: auto; */
     margin-top: 40px;
     margin-left: 250px;
     width: 200px;
@@ -156,7 +157,7 @@ body{
 .custom-box-five{
     position: absolute;
     top: 400px;
-    right: 43vw;
+    right: 43%;
     z-index: 1;
     opacity: 1;
     overflow: hidden;
@@ -173,7 +174,7 @@ body{
     position: absolute;
     top: 100px;
     z-index: -1;
-    right: 67vw;
+    right: 67%;
     margin-top: 40px;
     margin-left: 250px;
     width: 400px;
@@ -186,7 +187,7 @@ body{
     position: absolute;
     top: 250px;
     z-index: -1;
-    right: 75vw;
+    right: 75%;
     border: 2px solid rgba(255, 205, 255, 0.3);
     margin-top: 40px;
     margin-left: 250px; 
@@ -204,17 +205,30 @@ body{
 .custom-box-eight{
     position: absolute;
     top: 20px;
-    right: 7vw;
+    right: 7%;
     margin-top: 40px;
     margin-left: 250px; 
-    width: 86.5vw;
+    width: 86.5%;
     border-radius: 30px;
-    height: 500px;  
+    height: 88%;  
+    z-index: -1;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
     background-image: linear-gradient(to top,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.001));
+}
+#mt{
+    margin-bottom: 120px;
+}
+#clubb p {
+    margin-bottom: 100px;
+}
+#banner img{
+    margin-bottom: 200px;
 }
 hr {
     width: 420px; 
     height: 2px; 
+    z-index: 1;
     color: #fff;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -224,7 +238,7 @@ hr {
     transform: rotate(90deg); 
     position: absolute; 
     top: 50px;
-    left: 50vw;
+    left: 50%;
     transform-origin: 0 0; 
 }
 .nine{
@@ -234,7 +248,7 @@ hr {
     position: absolute;
     top: 250px;
     z-index: -1;
-    right: 16vw;
+    right: 16%;
     margin-top: 40px;
     margin-left: 250px;
     width: 400px;
@@ -249,7 +263,7 @@ hr {
 .custom-box-eleven{
     position: absolute;
     top: 50px;
-    right: 63vw;
+    right: 63%;
     z-index: 1;
     opacity:1 ;
     margin-top: 40px;
@@ -264,7 +278,7 @@ hr {
 .custom-box-thirteen{
     position: absolute;
     top: 40px;
-    right: 0vw;
+    right: 0%;
     border: 2px solid rgba(255, 205, 255, 0.3);
     margin-top: 40px;
     margin-left: 250px; 
@@ -278,7 +292,7 @@ hr {
     top: 600px;
     z-index: -1;
     opacity:2 ;
-    right: 50vw;
+    right: 55%;
     margin-top: 40px;
     margin-left: 250px;
     width: 300px;
@@ -295,7 +309,7 @@ hr {
 .custom-box-fifteen{
     position: absolute;
     top: 50px;
-    right: 5vw;
+    right: 5%;
     z-index: -1;
     margin-top: 40px;
     margin-left: 250px;
@@ -325,17 +339,17 @@ hr {
 }
 .custom-box-sixteen{
     position: absolute;
-    top: 200px;
+    top: 60px;
     z-index: -1;
-    right: 67vw;
+    right: 67%;
     margin-top: 40px;
     margin-left: 250px;
     width: 420px;
     height: 300px;
     background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
-    border-top-right-radius: 20px;
+    border-top-left-radius: 50px !important;
     border-top-left-radius: 20px;
-    border-bottom-left-radius: 20%;
+    border-bottom-left-radius: 50%;
 }
 .seventeen{
     position: relative;
@@ -343,11 +357,11 @@ hr {
 
 .custom-box-seventeen{
     position: absolute;
-    top: 70px;
-    right: 5vw;
+    top: 0px;
+    right: 5%;
     margin-top: 40px;
     margin-left: 250px;
-    width: 90vw;
+    width: 90%;
     height: 400px;
     background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
     border-top-left-radius: 30px;
@@ -395,7 +409,7 @@ hr {
     margin-top: 40px;
     margin-left: 250px; 
     width: 600px;   
-    border-left: none;
+    border-radius: 50px;
     height: 780px;   
 }
 
@@ -622,8 +636,8 @@ select{
     font-size: 21px;
     width: 60%;
 }
-#Features{
-    margin-top: 150px;
+.card-features{
+    margin-bottom: 120px;
 }
 #Features h1{
     color: orangered;
@@ -652,9 +666,9 @@ select{
 .card-features{
     margin-top: 50px;
 }
-#Benefits{
+/* #Benefits{
     margin-top: 50px;
-}
+} */
 #Benefits h1{
     color: orangered;
     font-family: "Montserrat";
@@ -666,13 +680,15 @@ select{
     height: 560px;
     border-radius: 10px;
     background-color: white;
+    border-radius: 50px;
+    z-index: 99;
 }
 #Benefits .card img{
     margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
 }
 #Benefits .card-body {
     padding-top: 0;
@@ -686,9 +702,9 @@ select{
 /* #Benefits  .card {
     box-shadow: 0px 10px 32px -9px rgba(0,0,0,0.75);
   } */
-#news{
+/* #news{
     margin-top: 100px;
-}
+} */
 #news h1{
     color: orangered;
     font-family: "Montserrat";
@@ -699,7 +715,7 @@ select{
     border-radius: 30px;
 }
 #caro{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 #caro {
     display: flex;
@@ -717,7 +733,10 @@ select{
     width: 80%;
     color: rgb(255, 255, 255);
 }
-
+.container-fluid {
+    max-width: 1900px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
 
 
 .users .two{
@@ -755,7 +774,7 @@ select{
     justify-content: center;
 }
 
-.con{
+#con{
     z-index: 99;
     margin-top: 100px;
     font-family: "Gilroy";
@@ -866,20 +885,94 @@ button{
 #footer{
     background: linear-gradient(to right, #903bff , #903bff8b);
 }
+.seventeen{
+    margin-top: 50px;
+}
+#myimg{
+    margin-bottom: 150px;
+}
+#row{
+    margin-top: 0px;
+}
+#Contact-us{
+    margin-top: 20px;
+}
+#con{
+    margin-top: 20px !important;
+}
+@media (min-width: 1600px) and (max-width: 3440px){
+    .custom-box-two{
+        position: absolute;
+        top: 0px !important;
+        z-index: -1;
+        right: 10% !important;
+        border: 2px solid rgba(255, 205, 255, 0.3);
+        margin-top: 40px;
+        margin-left: 250px; 
+        width: 320px;
+        height: 300px;
+        border-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+    .custom-box-four{
+        position: absolute;
+        top: 105px !important;
+        right: 8% !important;
+        z-index: -1;
+        border-radius: 50px;
+        margin-top: 40px;
+        margin-left: 250px;
+        width: 200px;
+        height: 220px;
+        background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.08));
+    }
+    .custom-box-fifteen{
+        position: absolute;
+        top: 50px !important;
+        right: 15% !important;
+        z-index: -1;
+        margin-top: 40px;
+        margin-left: 250px;
+        width: 300px;
+        height: 300px;
+        background-image: linear-gradient(to left,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
+        border-top-left-radius: 30%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .bannerimg {
+        width: 60% !important;
+        height: 60% !important;
+        border-radius: 30px;
+    }
+    .custom-box-sixteen{
+        position: absolute;
+        top: 60px;
+        z-index: -1;
+        right: 73%;
+        margin-top: 40px;
+        margin-left: 250px;
+        width: 420px;
+        height: 300px;
+        background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
+        border-top-left-radius: 50px !important;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 50%;
+    }
+    .img-fluid {
+        margin-top: 20px;
+        width: 10vw;
+        height: 30vh;
+    }
 
-
-
-
+}
 
 
 
 
 @media (min-width: 1550px) and (max-width: 3840px){
-.img-fluid {
-    margin-top: 20px;
-    width: 10vw;
-    height: 30vh;
-}
+
 }
 
 
