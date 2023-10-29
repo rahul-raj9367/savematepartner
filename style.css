@@ -8,31 +8,30 @@ h1{
     overflow: hidden;
 }
 
-@font-face{
+@font-face {
     font-family: "Gilroy";
-    src: url("fonts/Gilroy-Light.otf") format("otf");
+    src: url("fonts/Gilroy-Light.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face{
+@font-face {
     font-family: "Antonioo";
-    src: url("fonts/Antonio-Regular.ttf") format("ttf");
+    src: url("fonts/Antonio-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-    
 }
 
 @font-face{
     font-family: "GilroyBold";
-    src: url("fonts/Gilroy-ExtraBold.otf") format("otf");
+    src: url("fonts/Gilroy-ExtraBold.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: "Montserrat";
-    src: url("fonts/Montserrat-Regular.otf") format("otf");
+    src: url("fonts/Montserrat-Regular.otf")  format("opentype");
     font-weight: normal;
     font-style: normal;
 }
