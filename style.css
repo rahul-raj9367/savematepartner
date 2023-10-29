@@ -177,7 +177,7 @@ body{
     position: absolute;
     top: 100px;
     z-index: -1;
-    right: 67%;
+    right: 68.5%;
     margin-top: 40px;
     margin-left: 250px;
     width: 400px;
@@ -190,7 +190,7 @@ body{
     position: absolute;
     top: 250px;
     z-index: -1;
-    right: 75%;
+    right: 77%;
     border: 2px solid rgba(255, 205, 255, 0.3);
     margin-top: 40px;
     margin-left: 250px; 
@@ -208,11 +208,9 @@ body{
 }
 .custom-box-eight{
     position: absolute;
-    top: 20px;
-    right: 7%;
-    margin-top: 40px;
-    margin-left: 250px; 
-    width: 86.5%;
+    top: 25px;
+    left: 5%;
+    width: 90%;
     border-radius: 30px;
     height: 88%;  
     z-index: -1;
@@ -230,7 +228,7 @@ body{
     margin-bottom: 200px;
 }
 hr {
-    width: 420px; 
+    width: 430px; 
     height: 2px; 
     z-index: 1;
     color: #fff;
@@ -241,7 +239,7 @@ hr {
     background-color: white; 
     transform: rotate(90deg); 
     position: absolute; 
-    top: 50px;
+    top: 10px;
     left: 50%;
     transform-origin: 0 0; 
 }
@@ -250,7 +248,7 @@ hr {
 }
 .custom-box-nine {
     position: absolute;
-    top: 250px;
+    top: 200px;
     z-index: -1;
     right: 16%;
     margin-top: 40px;
@@ -266,12 +264,11 @@ hr {
 }
 .custom-box-eleven{
     position: absolute;
-    top: 50px;
+    top: 90px;
     right: 63%;
     z-index: 1;
     opacity:1 ;
-    margin-top: 40px;
-    margin-left: 250px;
+
     width: 300px;
     height: 250px;
     border-radius: 50px;
@@ -281,11 +278,9 @@ hr {
 }
 .custom-box-thirteen{
     position: absolute;
-    top: 40px;
+    top: 100px;
     right: 0%;
     border: 2px solid rgba(255, 205, 255, 0.3);
-    margin-top: 40px;
-    margin-left: 250px; 
     width: 600px;   
     height: 780px;   
     border-bottom-left-radius: 50%;
@@ -296,9 +291,7 @@ hr {
     top: 600px;
     z-index: -1;
     opacity:2 ;
-    right: 55%;
-    margin-top: 40px;
-    margin-left: 250px;
+    right: 50%;
     width: 300px;
     height: 300px;
     border-bottom-left-radius: 20px;
@@ -315,8 +308,6 @@ hr {
     top: 50px;
     right: 5%;
     z-index: -1;
-    margin-top: 40px;
-    margin-left: 250px;
     width: 300px;
     height: 300px;
     background-image: linear-gradient(to left,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
@@ -329,9 +320,7 @@ hr {
     position: absolute;
     top: 480px;
     z-index: -1;
-    right: 35vw;
-    margin-top: 40px;
-    margin-left: 250px;
+    left: 5%;
     width: 900px;
     height: 300px;
     background-image: linear-gradient(to top,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
@@ -345,9 +334,7 @@ hr {
     position: absolute;
     top: 60px;
     z-index: -1;
-    right: 67%;
-    margin-top: 40px;
-    margin-left: 250px;
+    left: 5%;
     width: 420px;
     height: 300px;
     background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
@@ -384,7 +371,7 @@ hr {
 .custom-box-three{
     position: absolute;
     top: 300px;
-    right: 39vw;
+    right: 39%;
     border: 2px solid rgba(255, 205, 255, 0.3);
     margin-top: 40px;
     margin-left: 250px; 
@@ -494,8 +481,8 @@ hr {
 }
 .img-fluid{
     margin-top: 20px;
-    width: 30vw;
-    height: 90vh;
+    width: 458.4px;
+    height: 637.2px;
 }
 #save-mate-grouth{
     margin-top: 25px;
@@ -529,11 +516,28 @@ hr {
 }
 .users{
     display: flex;
-    row-gap: 10px;
-    column-gap: 10px;
+    row-gap: 0px;
+    column-gap: 0px;
     align-items: center;
     justify-content:center;
     overflow: hidden;
+    margin-left: 200px;
+}
+.Payouts{
+    margin-right: 250px;
+}
+.Payoutss{
+    margin-right: 250px;
+}
+#Counters h1{
+    margin-left: 26px;
+}
+select{
+    padding-left: 10px;
+    width: 70px;
+}
+#Counterss h1{
+    margin-right: 220px;
 }
 .users h6{
     margin-top: 50px;
@@ -599,7 +603,7 @@ select{
     width: 105px;
 }
 #howitworks{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 #howitworks img{
     margin-top: 40px;
@@ -615,7 +619,7 @@ select{
 #banner img{
     border-radius: 50px;
     border-bottom-left-radius: 30%;
-    width: 550px;
+    width: 90%;
     height: 600px;
 }
 .btn {
@@ -761,19 +765,21 @@ select{
     text-align: center; /* Center the text horizontally within the circle */
     line-height: 100px; /
 }
-.rounded-shape {
+.shape button.active {
     margin-top: 40px;
-    width: 15px;
-    height: 15px;
+    width: 5px;
+    height: 5px;
     background-color:#ff82b8; 
     border: 2px solid #ff82b8;
     border-radius: 50%; 
     margin-right: 8px;
+    padding: 10px;
 }
-.rounded-shapee {
+.shape button {
+    padding: 10px;
     margin-top: 40px;
-    width: 15px;
-    height: 15px;
+    width: 5px;
+    height: 5px;
     background-color: transparent; 
     border: 2px solid #ff82b8;
     border-radius: 50%; 
@@ -885,9 +891,7 @@ button{
     padding-left: 3px;
     padding-right: 3px;
 }
-#exampleInputEmail1 {
-    border-radius: 0% !important;
-}
+
 .share h6{
     font-family: "Montserrat";
 }
@@ -902,7 +906,7 @@ button{
     margin-top: 50px;
 }
 #myimg{
-    margin-bottom: 150px;
+    margin-bottom: 170px;
 }
 #row{
     margin-top: 0px;
@@ -913,12 +917,49 @@ button{
 #con{
     margin-top: 20px !important;
 }
+#Readmore{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#submit{
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+#btn-no-border-radius{
+    margin-bottom: 16px;
+    border-radius: 0% ;
+    padding-top: 3.4px;
+    padding-bottom: 3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#exampleInputEmail1 {
+    border-radius: 0% ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#joinour{
+    margin-left: 0px;
+}
+#quicklink{
+    flex: 1;
+}
+
+
 @media (min-width: 1600px) and (max-width: 3440px){
     .custom-box-two{
         position: absolute;
         top: 0px !important;
         z-index: -1;
-        right: 10% !important;
+        right: 4% !important;
         border: 2px solid rgba(255, 205, 255, 0.3);
         margin-top: 40px;
         margin-left: 250px; 
@@ -930,7 +971,7 @@ button{
     }
     .custom-box-four{
         position: absolute;
-        top: 105px !important;
+        top: 135px !important;
         right: 8% !important;
         z-index: -1;
         border-radius: 50px;
@@ -963,9 +1004,7 @@ button{
         position: absolute;
         top: 60px;
         z-index: -1;
-        right: 73%;
-        margin-top: 40px;
-        margin-left: 250px;
+        left: 5%;
         width: 420px;
         height: 300px;
         background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
@@ -973,10 +1012,11 @@ button{
         border-top-left-radius: 20px;
         border-bottom-left-radius: 50%;
     }
-    .img-fluid {
+    .img-fluid{
+        margin-right: 120px;
         margin-top: 20px;
-        width: 10vw;
-        height: 30vh;
+        width: 458.4px;
+        height: 637.2px;
     }
     .custom-box-five{
         position: absolute;
@@ -991,6 +1031,19 @@ button{
         border-bottom-left-radius: 40%;
         background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.2),rgba(255, 255, 255, 0.008));
     }
+    .custom-box-three{
+        position: absolute;
+        top: 300px;
+        right: 43%;
+        border: 2px solid rgba(255, 205, 255, 0.3);
+        margin-top: 40px;
+        margin-left: 250px; 
+        width: 850px;
+        border-radius: 50px;
+        height: 550px;
+        border-top-left-radius: 40%;
+    }
+    
     .sma{
         width: 315px;
         border: none;
@@ -1004,19 +1057,42 @@ button{
         padding-top: 25px;
         padding-bottom: 30px;
     }
-    /* .custom-box-fourteen{
+    .custom-box-fourteen{
         position: absolute;
         top: 480px;
         z-index: -1;
-        right: 33vw;
-        margin-top: 40px;
-        margin-left: 250px;
+        left: 5%;
         width: 900px;
         height: 300px;
         background-image: linear-gradient(to top,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
-    } */
+    }
+    .custom-box-six{
+        position: absolute;
+        top: 100px;
+        z-index: -1;
+        right: 74.4%;
+        margin-top: 40px;
+        margin-left: 250px;
+        width: 400px;
+        height: 440px;
+        border-top-left-radius: 40%;
+        border-bottom-left-radius: 50px;
+        background-image: linear-gradient(to right,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.008));
+    }
+    .custom-box-seven{
+        position: absolute;
+        top: 250px;
+        z-index: -1;
+        right: 82%;
+        border: 2px solid rgba(255, 205, 255, 0.3);
+        margin-top: 40px;
+        margin-left: 250px; 
+        width: 310px;
+        border-radius: 30px;
+        height: 380px;   
+    }
     
 
 }
