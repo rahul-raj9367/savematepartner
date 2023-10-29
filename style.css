@@ -10,27 +10,31 @@ h1{
 
 @font-face{
     font-family: "Gilroy";
-    src: url("./fonts/Gilroy-Light.otf");
-    font-weight: 100;
+    src: url("./fonts/Gilroy-Light.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face{
     font-family: "Antonioo";
-    src: url("./fonts/Antonio-Regular.ttf");
-    font-weight: 100;
+    src: url("./fonts/Antonio-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
     
 }
 
 @font-face{
     font-family: "GilroyBold";
-    src: url("./fonts/Gilroy-ExtraBold.otf");
-    font-weight: 100;
+    src: url("./fonts/Gilroy-ExtraBold.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face{
     font-family: "Montserrat";
-    src: url("./fonts/Montserrat-Regular.otf");
-    font-weight: 100;
+    src: url("./fonts/Montserrat-Regular.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
 }
 
 body{
