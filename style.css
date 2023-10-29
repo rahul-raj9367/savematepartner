@@ -965,6 +965,46 @@ button{
         width: 10vw;
         height: 30vh;
     }
+    .custom-box-five{
+        position: absolute;
+        top: 420px;
+        right: 43%;
+        z-index: 1;
+        opacity: 1;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        border-bottom-left-radius: 40%;
+        background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.2),rgba(255, 255, 255, 0.008));
+    }
+    .sma{
+        width: 315px;
+        border: none;
+        /* border-bottom-left-radius: 400px;
+        border-left: 2px solid rgba(255, 205, 255, 0.3);
+        border-bottom: 2px solid rgba(255, 205, 255, 0.3);
+        border-right: 2px solid rgba(255, 205, 255, 0.3);
+        border-bottom-right-radius: 400px;
+        border-top-right-radius: 0; */
+        padding-left: 100px;
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    /* .custom-box-fourteen{
+        position: absolute;
+        top: 480px;
+        z-index: -1;
+        right: 33vw;
+        margin-top: 40px;
+        margin-left: 250px;
+        width: 900px;
+        height: 300px;
+        background-image: linear-gradient(to top,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    } */
+    
 
 }
 
