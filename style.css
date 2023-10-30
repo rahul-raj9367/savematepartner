@@ -549,10 +549,10 @@ hr {
     margin-right: 167px;
 } */
 .mm{
-    margin-left: 20%;
+    margin-left: 15%;
 }
 #Counterss h1{
-    margin-left: 20%;
+    margin-left: 15%;
     margin-bottom: 80px;
 }
 /* .Payoutss{
@@ -1138,6 +1138,15 @@ button{
         width: 310px;
         border-radius: 30px;
         height: 380px;   
+    }
+    .users {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    #Counters h1 {
+        margin-left: 33.5%;
     }
     
 
