@@ -44,8 +44,7 @@ body{
 }
 .sma{
     width: 315px;
-    border-bottom: 2px solid rgba(255, 205, 255, 0.3);
-    border-right: 2px solid rgba(255, 205, 255, 0.3);
+    border: none;
     border-bottom-right-radius: 400px;
     border-top-right-radius: 0;
     padding-left: 100px;
@@ -174,7 +173,7 @@ body{
 }
 .custom-box-five{
     position: absolute;
-    top: 400px;
+    top: 430px;
     right: 43%;
     z-index: 1;
     opacity: 1;
@@ -192,7 +191,7 @@ body{
     position: absolute;
     top: 130px;
     z-index: -1;
-    left: 5%;
+    left: 5.9%;
     width: 400px;
     height: 440px;
     border-top-left-radius: 40%;
@@ -203,10 +202,8 @@ body{
     position: absolute;
     top: 250px;
     z-index: -1;
-    right: 77%;
+    left: 3%;
     border: 2px solid rgba(255, 205, 255, 0.3);
-    margin-top: 40px;
-    margin-left: 250px; 
     width: 310px;
     border-radius: 30px;
     height: 380px;   
@@ -261,11 +258,9 @@ hr {
 }
 .custom-box-nine {
     position: absolute;
-    top: 200px;
+    top: 33%;
     z-index: -1;
     right: 16%;
-    margin-top: 40px;
-    margin-left: 250px;
     width: 400px;
     height: 440px;
     border-top-right-radius: 25%;
@@ -277,14 +272,14 @@ hr {
 }
 .custom-box-eleven{
     position: absolute;
-    top: 90px;
+    top: 99px;
     right: 63%;
     z-index: 1;
     opacity:1 ;
-
-    width: 300px;
+    width: 250px;
     height: 250px;
-    border-radius: 50px;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 50%;
     background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
@@ -294,10 +289,10 @@ hr {
     top: 100px;
     right: 0%;
     border: 2px solid rgba(255, 205, 255, 0.3);
-    width: 600px;   
-    height: 780px;   
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 10%;
+    width: 41%;   
+    height: 80%;   
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 50px;
 }
 .custom-box-twelve{
     position: absolute;
@@ -305,10 +300,10 @@ hr {
     z-index: -1;
     opacity:2 ;
     right: 50%;
-    width: 300px;
+    width: 270px;
     height: 300px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     border-top-right-radius: 30%;
     border-top-left-radius: 30%;
     background-image: linear-gradient(to top,  rgba(255, 0, 255, 0.5),rgba(255, 255, 255, 0.0008));
@@ -376,22 +371,43 @@ hr {
 
 
 
-
-
-
-
-
+#ari{
+    position: relative;
+    margin-top: 0px;
+}
 .custom-box-three{
     position: absolute;
-    top: 405px;
+    bottom: 49%;
     left: 17.7%;
     border: 2px solid rgba(255, 205, 255, 0.3);
-    width: 42%;
+    width: 41.5%;
     z-index: -1;
     border-radius: 50px;
-    height: 490px;
+    height: 500px;
     border-top-left-radius: 40%;
 }
+#Works{
+    position: relative;
+}
+.custom-box-ten{
+    position: absolute;
+    top: 39%;
+    left: 1%;
+    border: 2px solid rgba(255, 205, 255, 0.3);
+    width: 33%;   
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    z-index: -1;
+    border-radius: 50px;
+    border-left: none;
+    height: 780px;   
+}
+
+
+
+
+
+
 
 
 
@@ -403,16 +419,6 @@ hr {
 }
 
 
-
-.custom-box-ten{
-    position: absolute;
-    top: 3020px;
-    right: 63%;
-    border: 2px solid rgba(255, 205, 255, 0.3);
-    width: 600px;   
-    border-radius: 50px;
-    height: 780px;   
-}
 
 
 
@@ -441,22 +447,52 @@ hr {
     white-space: nowrap;
     text-overflow: ellipsis; 
 }
-.SaveMate {
+/* .SaveMate {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 210px;
-}
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+} */
 .save{
     margin-left: 20%;
 }
+#SaveMate{
+    position: relative;
+}
+#p{
+    position: absolute;
+    top: 64%;
+    z-index: 1;
+}
+#pp{
+    position: absolute;
+    top: 70%;
+    z-index: 1;
+}
+#ppp{
+    position: absolute;
+    top:76%;
+    z-index: 1;
+}
+#Readmoreone{
+    position: absolute;
+    bottom: 1%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bannerimg {
+    max-width: 100%; /* Ensures the image doesn't exceed its container width */
+    height: auto; /* Maintains the aspect ratio */
+  }
 #save-mate-grouth p{
-    width: 80%;
-    margin-left: 20%;
-    font-size:larger;
+    /* width: 80%; */
+    margin-left: 20%; 
+    font-size:26px;
     color: #fff;
     font-family: "Gilroy";
-    margin-top: 60px;
 }
 .button{
     margin-left: 20%;
@@ -473,6 +509,7 @@ hr {
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 11%;
     object-fit: cover;
+    margin-bottom: 5px;
 }
 .why h1 {
     color: orangered;
@@ -617,6 +654,11 @@ select{
     color: #ffff;
     font-family: "Montserrat";
 }
+.custom-video {
+    margin-top: 10px;
+    width: 800px;
+    height: 500px;
+}
 .three{
     border: 2px solid white; /* Set the border color to white and border width to 2px */
     padding: 12px; 
@@ -624,8 +666,8 @@ select{
     margin-right: 5px;
     font-size: 40px !important;
     color:  #ff82b8 !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
     border-radius: 10px;
 }
 .three{
@@ -673,7 +715,7 @@ select{
    color:#ff82b8;
 }
 .Campagins{
-    margin-top: 150px;
+    margin-top: 205px;
 }
 .para{
     font-family: "Gilroy";
@@ -891,9 +933,10 @@ button{
     color: #ffff;
 }
 .fotcopy{
+    margin-left: 15%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 .fotcopy p{
@@ -902,6 +945,9 @@ button{
     color: #ffff;
     width: 270px;
     margin-top: 11vh;
+}
+ol, ul {
+    padding-left: 0rem;
 }
 #footflex .col-lg-4{
     margin-left: 40px;
@@ -960,13 +1006,7 @@ button{
 #con{
     margin-top: 20px !important;
 }
-#Readmore{
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+
 #submit{
     padding-left: 50px;
     padding-right: 50px;
@@ -998,7 +1038,7 @@ button{
 }
 
 
-@media (min-width: 1600px) and (max-width: 3440px){
+@media (min-width: 1700px) and (max-width: 3440px){
     .custom-box-two{
         position: absolute;
         top: 0px !important;
@@ -1041,7 +1081,6 @@ button{
     }
     .bannerimg {
         width: 60% !important;
-        height: 60% !important;
         border-radius: 30px;
     }
     .custom-box-sixteen{
@@ -1075,19 +1114,20 @@ button{
         border-bottom-left-radius: 40%;
         background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.2),rgba(255, 255, 255, 0.008));
     }
- 
+    .custom-box-three{
+        position: absolute;
+        bottom: 49%;
+        left: 16.5%;
+        border: 2px solid rgba(255, 205, 255, 0.3);
+        width: 41.5%;
+        z-index: -1;
+        border-radius: 50px;
+        height: 500px;
+        border-top-left-radius: 40%;
+    }
 
-.custom-box-three{
-    position: absolute;
-    top: 400px;
-    left: 25.7%;
-    border: 2px solid rgba(255, 205, 255, 0.3);
-    width: 765px;
-    z-index: -1;
-    border-radius: 50px;
-    height: 490px;
-    border-top-left-radius: 40%;
-}
+
+    
     .sma{
         width: 315px;
         border: none;
@@ -1116,7 +1156,7 @@ button{
         position: absolute;
         top: 130px;
         z-index: -1;
-        left: 5%;
+        left: 5.9%;
         width: 400px;
         height: 440px;
         border-top-left-radius: 40%;
@@ -1127,10 +1167,8 @@ button{
         position: absolute;
         top: 250px;
         z-index: -1;
-        right: 82%;
+        left: 3%;
         border: 2px solid rgba(255, 205, 255, 0.3);
-        margin-top: 40px;
-        margin-left: 250px; 
         width: 310px;
         border-radius: 30px;
         height: 380px;   
