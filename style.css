@@ -407,10 +407,8 @@ hr {
 .custom-box-ten{
     position: absolute;
     top: 2850px;
-    right: 65vw;
+    right: 61%;
     border: 2px solid rgba(255, 205, 255, 0.3);
-    margin-top: 40px;
-    margin-left: 250px; 
     width: 600px;   
     border-radius: 50px;
     height: 780px;   
