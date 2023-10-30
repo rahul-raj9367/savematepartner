@@ -1054,17 +1054,17 @@ button{
     }
  
 
-/* .custom-box-three{
-    position: sticky;
-    top: 405px;
-    left: 17.7%;
+.custom-box-three{
+    position: absolute;
+    top: 400px;
+    left: 25.7%;
     border: 2px solid rgba(255, 205, 255, 0.3);
-    width: 590px;
+    width: 720px;
     z-index: -1;
     border-radius: 50px;
     height: 490px;
     border-top-left-radius: 40%;
-} */
+}
     .sma{
         width: 315px;
         border: none;
