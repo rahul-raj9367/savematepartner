@@ -192,7 +192,7 @@ body{
     position: absolute;
     top: 130px;
     z-index: -1;
-    right: 68.5%;
+    left: 5%;
     width: 400px;
     height: 440px;
     border-top-left-radius: 40%;
@@ -225,7 +225,7 @@ body{
     left: 5%;
     width: 90%;
     border-radius: 30px;
-    height: 88%;  
+    height: 95%;  
     z-index: -1;
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
@@ -241,7 +241,7 @@ body{
     margin-bottom: 200px;
 }
 hr {
-    width: 430px; 
+    width: 560px; 
     height: 2px; 
     z-index: 1;
     color: #fff;
@@ -388,7 +388,7 @@ hr {
     top: 405px;
     left: 17.7%;
     border: 2px solid rgba(255, 205, 255, 0.3);
-    width: 590px;
+    width: 640px;
     z-index: -1;
     border-radius: 50px;
     height: 490px;
@@ -481,6 +481,7 @@ hr {
 .why h1 {
     color: orangered;
     font-family: "Gilroy";
+    font-size: 60px;
 }
 .club p {
     margin-top: 20px;
@@ -523,69 +524,82 @@ hr {
 #count h1{
     color: #ff6815;
     font-family: "Gilroy";
-    font-size: 50px;
+    font-size: 60px;
 }
 #Payout h1{
     color: #ff6815;
     font-family: "Gilroy";
-    font-size: 50px;
+    font-size: 60px;
 }
 .users{
     display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    overflow: hidden;  
+}
+/* .users .two {
     row-gap: 0px;
     column-gap: 0px;
-    align-items: center;
-    justify-content:center;
-    overflow: hidden;
-    margin-left: 200px;
+} */
+.uu{
+    margin-left: 20%;
 }
-.Payouts{
-    margin-right: 250px;
+/* .Payouts{
+   
+    margin-right: 167px;
+} */
+.mm{
+    margin-left: 20%;
 }
-.Payoutss{
-    margin-right: 250px;
+#Counterss h1{
+    margin-left: 20%;
+    margin-bottom: 80px;
 }
+/* .Payoutss{
+    margin-right: 167px;
+} */
 #Counters h1{
-    margin-left: 26px;
+    margin-left: 20%;
 }
 select{
     padding-left: 10px;
-    width: 70px;
+    width: 90px;    /**/
 }
-#Counterss h1{
-    margin-right: 220px;
-}
+
 .users h6{
     margin-top: 50px;
     color: #fff;
     font-family: "Montserrat";
     overflow: hidden;
-    width: 300px;
+    font-size: 1.3rem;
+    width: 340px;
 }
 .Counters h1{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 .Payouts h6{
     overflow: hidden !important;
+    font-size: 1.3rem;
 }
 .Payoutss h6{
     overflow: hidden !important;
+    font-size: 1.3rem;
 }
 .Payoutss{
     display: flex;
     align-items: center;
     overflow: hidden;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 10px;
 }
 .Payouts{
     display: flex;
     align-items: center;
     overflow: hidden;
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: flex-start;
+    margin-top: 0px;
 }
 select{
     background-color: #ff6815;
@@ -594,11 +608,14 @@ select{
     border-bottom-right-radius: 10px;
 }
 .months{
-    width: 150px;
+    width: 200px;
 }
 .Payoutss h6 {
     color: #ffff;
     font-family: "Montserrat";
+}
+#Payouts .three {
+    font-size: 40px !important;
 }
 .Payouts h6 {
     color: #ffff;
@@ -606,17 +623,17 @@ select{
 }
 .three{
     border: 2px solid white; /* Set the border color to white and border width to 2px */
-    padding: 10px; 
+    padding: 12px; 
     /* margin-left: 50px; */
     margin-right: 5px;
+    font-size: 40px !important;
     color:  #ff82b8 !important;
-    font-size: 30px;
-    padding-left: 20px;
+    padding-left: 25px;
     padding-right: 20px;
     border-radius: 10px;
 }
 .three{
-    width: 105px;
+    width: 150px;
 }
 #howitworks{
     margin-top: 150px;
@@ -628,6 +645,7 @@ select{
     overflow: hidden !important;
     color: #ff6815;
      font-family: "Montserrat";
+     font-size: 60px;
 }
 #banner {
     margin-top: 150px;
@@ -673,6 +691,7 @@ select{
 #Features h1{
     color: orangered;
     font-family: "Montserrat";
+        font-size: 60px;
 }
 .card-features{
     display: flex;
@@ -703,6 +722,7 @@ select{
 #Benefits h1{
     color: orangered;
     font-family: "Montserrat";
+    font-size: 60px;
 }
 
 #Benefits .card{
@@ -739,6 +759,7 @@ select{
 #news h1{
     color: orangered;
     font-family: "Montserrat";
+    font-size: 60px;
 }
 .bannerimg{
     width: 35vw;
@@ -768,18 +789,23 @@ select{
     max-width: 1900px; /* Adjust the max-width as needed */
     margin: 0 auto; /* Center the container horizontally */
   }
+.why h1{
+    margin-bottom: 0px;
+}
+.club p{
+    margin-top: 0px;
 
+}
 
 .users .two{
-    color: rgba(243, 97, 44, 0.46) !important;
     border-radius: 50%;
-    /* border-color:  orangered !important; */
+    font-size: 40px !important;
     border: 3px solid #ff6815; /* Set the border color to orange and border width to 2px */
     border-radius: 50%; /* Make the border circular (50% of the width/height of the element) */
-    width: 100px; /* Set a fixed width to create a circular shape */
-    height: 100px; /* Set a fixed height to create a circular shape */
+    width: 150px; /* Set a fixed width to create a circular shape */
+    height: 150px; /* Set a fixed height to create a circular shape */
     text-align: center; /* Center the text horizontally within the circle */
-    line-height: 100px; /
+    line-height: 150px; /
 }
 .shape button.active {
     margin-top: 40px;
@@ -812,6 +838,7 @@ select{
 }
 
 #con{
+    font-size: 50px;
     z-index: 99;
     margin-top: 100px;
     font-family: "Gilroy";
@@ -1059,7 +1086,7 @@ button{
     top: 400px;
     left: 25.7%;
     border: 2px solid rgba(255, 205, 255, 0.3);
-    width: 720px;
+    width: 730px;
     z-index: -1;
     border-radius: 50px;
     height: 490px;
