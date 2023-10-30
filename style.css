@@ -380,13 +380,16 @@ hr {
 
 
 
-
+#grouth-one{
+    position: relative;
+}
 .custom-box-three{
     position: absolute;
     top: 405px;
     left: 17.7%;
     border: 2px solid rgba(255, 205, 255, 0.3);
     width: 590px;
+    z-index: -1;
     border-radius: 50px;
     height: 490px;
     border-top-left-radius: 40%;
@@ -405,7 +408,7 @@ hr {
 
 .custom-box-ten{
     position: absolute;
-    top: 2720px;
+    top: 2850px;
     right: 65vw;
     border: 2px solid rgba(255, 205, 255, 0.3);
     margin-top: 40px;
@@ -1049,17 +1052,19 @@ button{
         border-bottom-left-radius: 40%;
         background-image: linear-gradient(to bottom,  rgba(255, 0, 255, 0.2),rgba(255, 255, 255, 0.008));
     }
-    .custom-box-three{
-        position: absolute;
-        top: 405px;
-        left: 27.7%;
-        border: 2px solid rgba(255, 205, 255, 0.3);
-        width: 708px;
-        border-radius: 50px;
-        height: 490px;
-        border-top-left-radius: 40%;
-    }
-    
+ 
+
+/* .custom-box-three{
+    position: sticky;
+    top: 405px;
+    left: 17.7%;
+    border: 2px solid rgba(255, 205, 255, 0.3);
+    width: 590px;
+    z-index: -1;
+    border-radius: 50px;
+    height: 490px;
+    border-top-left-radius: 40%;
+} */
     .sma{
         width: 315px;
         border: none;
