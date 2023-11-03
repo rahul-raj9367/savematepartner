@@ -42,16 +42,11 @@ body{
     height: 100%;   
     overflow: hidden;
 }
-.sma{
-    width: 315px;
-    border: none;
-    border-bottom-right-radius: 400px;
-    border-top-right-radius: 0;
-    padding-left: 100px;
-    padding-top: 25px;
-    padding-bottom: 30px;
+.mainlogo {
+    margin-left: 9.5%;
 }
 .navbar{
+    margin-top: 30px;
     padding: 0%;
 }
 .container-fluid{
@@ -1134,19 +1129,7 @@ ol, ul {
 
 
     
-    .sma{
-        width: 315px;
-        border: none;
-        /* border-bottom-left-radius: 400px;
-        border-left: 2px solid rgba(255, 205, 255, 0.3);
-        border-bottom: 2px solid rgba(255, 205, 255, 0.3);
-        border-right: 2px solid rgba(255, 205, 255, 0.3);
-        border-bottom-right-radius: 400px;
-        border-top-right-radius: 0; */
-        padding-left: 100px;
-        padding-top: 25px;
-        padding-bottom: 30px;
-    }
+    
     .custom-box-fourteen{
         position: absolute;
         top: 480px;
